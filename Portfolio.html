@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <style>
+    :root {
+      --primary: #ff6f61;   /* coral */
+      --secondary: #6a1b9a; /* purple */
+      --accent: #00bcd4;    /* teal */
+      --bg: #fdfdfd;
+      --text: #333;
+    }
+
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    .highlight {
+      font-weight: bold;
+      color: var(--secondary);
+      background-color: #f3e5f5;
+      padding: 2px 6px;
+      border-radius: 4px;
+    }
+
+    header {
+      background: linear-gradient(135deg, var(--primary), var(--secondary));
+      color: #fff;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    nav {
+      background: var(--accent);
+      padding: 15px;
+      text-align: center;
+    }
+
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: transform 0.3s, color 0.3s;
+    }
+
+    nav a:hover {
+      color: var(--secondary);
+      transform: scale(1.1);
+    }
+
+    section {
+      padding: 30px;
+      margin: 20px auto;
+      max-width: 900px;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+    }
+
+    section h2 {
+      color: var(--primary);
+      border-bottom: 3px solid var(--accent);
+      padding-bottom: 10px;
+    }
+
+    footer {
+      background: linear-gradient(135deg, var(--secondary), var(--primary));
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    #thanks {
+      text-align: center;
+      margin: 30px;
+      font-weight: bold;
+      color: var(--accent);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Portfolio</h1>
+    <p>Exploring my journey, achievements, and story</p>
+  </header>
+
+  <nav>
+    <a href="#about">About Me</a>
+    <a href="#education">Education</a>
+    <a href="#migration">Migration</a>
+    <a href="#contact">Contact</a>
+    <a href="#hobbies">Hobbies</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p><strong>Name:</strong> <span class="highlight">Pratiksha Khadga Yadav</span></p>
+    <p><strong>Birthplace:</strong> <span class="highlight">Lahan, Ward-08, Siraha, Madhesh Province, Nepal</span></p>
+    <p><strong>Birthdate:</strong> <span class="highlight">22/04/2009</span></p>
+  </section>
+
+  <section id="education">
+    <h2>Education & Qualifications</h2>
+    <ul>
+      <li><strong>Grade:</strong> <span class="highlight">SEE Examination 2082, Computer Engineering Stream (Class 9 & 10)</span></li>
+      <li><strong>High School:</strong> <span class="highlight">Manakamna Boarding School & Shivapuri Secondary School</span></li>
+      <li><strong>Work:</strong> <span class="highlight">Internship at Beyond Tech Nepal</span></li>
+    </ul>
+  </section>
+
+  <section id="migration">
+    <h2>Migration History</h2>
+    <p><strong>From:</strong> <span class="highlight">Lahan</span></p>
+    <p><strong>To:</strong> <span class="highlight">Kathmandu</span></p>
+    <p><strong>Year:</strong> <span class="highlight">2016 AD</span></p>
+    <p><strong>Reason:</strong> <span class="highlight">Higher education and work</span></p>
+    <p><strong>Temporary Address:</strong> <span class="highlight">[Insert your current address here]</span></p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p><strong>Email:</strong> <span class="highlight">pratiksha.khadga2@gmail.com</span></p>
+    <p><strong>Phone:</strong> <span class="highlight">9709999500 / 9818475057</span></p>
+  </section>
+
+  <section id="hobbies">
+    <h2>Hobbies</h2>
+    <p><strong>Hobbies:</strong> <span class="highlight">Cooking, Dancing, Singing, Eating, Watching Movies, Playing Badminton</span></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 My Portfolio. All Rights Reserved.</p>
+  </footer>
+
+  <div id="thanks">✨ Thanks for visiting my portfolio! ✨</div>
+</body>
+</html>
